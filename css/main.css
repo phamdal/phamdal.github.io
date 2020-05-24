@@ -1,0 +1,46 @@
+#start {
+    background-color: #15372c;
+}
+#start #intro-header {
+    font-family: 'Crimson Text', serif;
+    color: white;
+    text-align: center;
+}
+#start #intro-title {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+#start #intro-location {
+    color: white;
+    text-align: center;
+}
+#start #intro-image {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+#exp {
+    background-color: #15372c;
+}
+#exp .uk-heading-small, #exp .uk-text-large {
+    color: white;
+}
+#tools {
+    background-color: #15372c;
+}
+#tools .uk-heading-medium, #tools .toolListItem {
+    color: white;
+}
+#tools .toolListItem {
+    color: white;
+    font-size: 1.5rem;
+}
+#contact {
+    background-color: #15372c;
+}
+#contact .uk-heading-medium {
+    color: white;
+}
+.crimsonFont {
+    font-family: 'Crimson Text', serif;
+}

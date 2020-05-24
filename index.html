@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Dalena Pham</title>
+  <meta name="description" content="Dalena Pham Portfolio">
+  <meta name="author" content="Dalena Pham">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="css/main.css"/>
+  <!-- Custom Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson Text">
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
+</head>                                                                                         
+<body>
+<!-- <div>
+  $$\   $$\           $$\ $$\                 $$$$$$$$\ $$\                                           
+  $$ |  $$ |          $$ |$$ |                \__$$  __|$$ |                                          
+  $$ |  $$ | $$$$$$\  $$ |$$ | $$$$$$\           $$ |   $$$$$$$\   $$$$$$\   $$$$$$\   $$$$$$\        
+  $$$$$$$$ |$$  __$$\ $$ |$$ |$$  __$$\          $$ |   $$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\       
+  $$  __$$ |$$$$$$$$ |$$ |$$ |$$ /  $$ |         $$ |   $$ |  $$ |$$$$$$$$ |$$ |  \__|$$$$$$$$ |      
+  $$ |  $$ |$$   ____|$$ |$$ |$$ |  $$ |         $$ |   $$ |  $$ |$$   ____|$$ |      $$   ____|      
+  $$ |  $$ |\$$$$$$$\ $$ |$$ |\$$$$$$  |         $$ |   $$ |  $$ |\$$$$$$$\ $$ |      \$$$$$$$\       
+  \__|  \__| \_______|\__|\__| \______/          \__|   \__|  \__| \_______|\__|       \_______|      
+
+  Hey there! While you're here, here's a poem: 
+  Roses are red
+  Violets are blue
+  Unexpected '{' on Line 32
+</div> -->
+  <div  uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+      <nav id="navbar" class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+              <li><a href="#about">About</a></li>
+              <li><a href="#exp">Exp</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#tools">Tools</a></li>
+              <li><a href="#friends">Friends</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </div>
+    </nav>
+  </div>
+  <div id="start" class="uk-section">
+      <div class="uk-container">
+        <div class="uk-cover-container" uk-height-viewport="offset-bottom: 80px">
+          <div style="text-align: center;">
+            <img src="./assets/svgs/source-code-white.svg" uk-svg="stroke-animation: true"/>
+          </div>
+          <div id="intro-header" class="uk-heading-large">
+            Hello, I'm Dalena.
+          </div>
+          <div id="intro-title" class="uk-text-large">
+            Full Stack Developer
+          </div>
+          <div id="intro-location"> 
+            <span uk-icon="icon: location"></span> Seattle, WA
+          </div>
+          <div id="intro-image">
+            <img width="400" height="400" src="./assets/svgs/software-engineer.svg">
+          </div>
+        </div>
+      </div>
+  </div>
+  <div id="about" class="uk-section">
+    <div class="uk-container">
+      <div class="uk-heading-medium crimsonFont">About</div>
+      <div uk-grid>
+        <div class="uk-width-1-2@m">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <img src="assets/me.jpg" alt="">
+            <img class="uk-transition-scale-up uk-position-cover" src="assets/6.jpg" alt="">
+          </div>
+        </div>
+        <div class="uk-width-1-2@m">
+          <div class="uk-text-lead">Hi there! I'm currently a full stack developer <a href="https://www.crelate.com" target="_blank">@CrelateTalent</a> based in Kirkland, WA. My first love was healthcare and microbiology however I've come to appreciate the everyday challenges that coding brings me. </div>
+          <br/>
+          <div class="uk-text-large">Fun Facts:</div>
+          <ul class="uk-list">
+            <li><span uk-icon="user"></span> Myers-Briggs Type Indicator (MBTI): <a href="https://www.16personalities.com/enfp-personality" target="_blank">ENFP [Extraverted iNtuitive Feeling Perceiving]</a>.</li>
+            <li><span uk-icon="bolt"></span> Hogwarts House: <a href="https://www.pottermore.com/writing-by-jk-rowling/the-sorting-hat" target="_blank">Slytherin</a></li>
+            <li><span uk-icon="heart"></span> Beverage of Choice: <a href="https://www.starbucks.com/menu/product/477/hot?parent=%2Fdrinks%2Fhot-teas%2Fblack-teas" target="_blank">London Fog</a></li>
+            <li><span uk-icon="code"></span> Current Visual Studio Code Theme: <a href="https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night" target="_blank">Tokyo Night Storm</a></li>
+          </ul>
+        </div>
+    </div>
+    </div>
+  </div>
+  <div id="exp" class="uk-section" style="background-color:#15372c;">
+    <div class="uk-container"> 
+      <div uk-grid>
+        <div class="uk-width-1-2@m" style="color:white">
+          <div class="uk-heading-small crimsonFont">Work & Education</div>
+          <div style="margin-left:30px">
+            <div style="margin-bottom: 10px;">
+              <div class="uk-text-large">Software Developer ll</div>
+              <div>Crelate Talent</div>
+              <div>January 2020 - Present</div>
+            </div>
+            <div>
+              <div class="uk-text-large">Software Developer l</div>
+              <div>Crelate Talent</div>
+              <div>August 2016 - January 2020</div>
+            </div>
+          </div>
+          <hr style="width:80%;"/>
+          <div style="margin-left:30px;">
+            <div style="margin-bottom: 10px;">
+              <div class="uk-text-large">B.S. Computer Science</div>
+              <div>Oregon State University</div>
+              <div>2014 - 2016</div>
+            </div>
+            <div>
+              <div class="uk-text-large">B.S. General Biology</div>
+              <div>University of Washington</div>
+              <div>2011 - 2014</div>
+            </div>
+          </div>
+        </div>
+        <div class="uk-width-1-2@m" style="color:white">
+          <div class="uk-heading-small crimsonFont">Skills Summary</div>
+          <div style="margin-left:30px">
+            <div class="uk-text-large">Current Stack </div>
+            <div> C#, .NET, SQL Server, <br/> TypeScript, JavaScript, Kendo UI, Handlebars, HTML/CSS/LESS,<br/> Xamarin </div>
+            <br/>
+            <div class="uk-text-large">Tools Used </div>
+            <div>Visual Studios, Azure DevOps, ElasticSearch, Git</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="projects" class="uk-section">
+    <div class="uk-container">
+      <div class="uk-heading-medium crimsonFont">Side Projects</div>
+        <div class="uk-container" style="text-align: center;">
+          <div class="uk-text-lead	">
+            Under Construction
+          </div>
+          <div class="uk-text-large">
+            Check back soon! 
+          </div>
+        </div>
+    </div>
+  </div>
+  <div id="tools" class="uk-section">
+      <div class="uk-container" style="color:white">
+        <div class="uk-heading-medium crimsonFont">Tools</div>
+        <div class="uk-text-lead" style="color:white">
+          Here are some awesome tools I use and reccomend!     
+        </div>
+        <ul class="uk-list uk-list-divider">
+          <li>
+            <div class="toolListItem">
+              <div><span uk-icon="icon:git-fork"></span> <a href="https://www.gitkraken.com/git-client" target="_blank" class="uk-link-heading">GitKraken</a> <span style="font-size:1rem">- A Git GUI</span></div>
+            </div>  
+          </li>
+          <li>
+            <div class="toolListItem">
+              <div><span uk-icon="icon:cog"></span> <a href="https://quicktype.io/" target="_blank" class="uk-link-heading">QuickType</a> <span style="font-size:1rem">- Generate client libraries from JSON</span></div>
+            </div>
+          </li>
+          <li>
+            <div class="toolListItem">
+              <div><span uk-icon="icon:cog"></span> <a href="https://flatuicolors.com/" target="_blank" class="uk-link-heading">Flat UI Colors</a> <span style="font-size:1rem">- Library of colors </span></div>
+            </div>
+          </li>
+          <li>
+            <div class="toolListItem">
+              <div><span uk-icon="icon:cog"></span> <a href="https://coolors.co/" target="_blank" class="uk-link-heading">Coolorss</a> <span style="font-size:1rem">- Generate color palettes</span></div>
+            </div>
+          </li>
+          <li>
+            <div class="toolListItem">
+              <div><span uk-icon="icon:cog"></span> <a href="https://mockaroo.com/" target="_blank" class="uk-link-heading">Mockaroo</a> <span style="font-size:1rem">- Generate CSV mock data</span></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+  </div>
+  <div id="friends" class="uk-section">
+    <div class="uk-container">
+      <div class="uk-heading-medium crimsonFont">Friends</div>
+      <div class="uk-text-lead" style="margin-bottom: 1rem;"> I may not be looking or be the right fit, but I do know some awesome people in the industry - I have the highest regard for the following, please check them out! </div> 
+     
+      <div class="uk-child-width-1-3@s" uk-grid>
+        <div>
+            <div class="uk-card uk-card-default">
+              <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="40" height="40" src="assets/liz.jpg">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Liz Ong</h3>
+                        <p class="uk-text-meta uk-margin-remove-top">Visual Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body" uk-text-center>
+              <div>
+                <span uk-icon="icon:chevron-right;"></span>&ensp;<a href="https://www.liz-ong.com/" target="_blank">Portfolio</a>
+              </div>
+              <div>
+                <span uk-icon="icon:chevron-right;"></span>&ensp;<a href="https://www.linkedin.com/in/ongliz" target="_blank">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default">
+              <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="40" height="40" src="assets/diane.jpg">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Diane Ha</h3>
+                        <p class="uk-text-meta uk-margin-remove-top">UI/UX Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+              <div>
+                <span uk-icon="icon:chevron-right;"></span>&ensp;<a href="https://www.dianeha.com/" target="_blank">Portfolio</a>
+              </div>
+              <div>
+                <span uk-icon="icon:chevron-right;"></span>&ensp;<a href="https://www.linkedin.com/in/diane-ha/" target="_blank">LinkedIn</a>
+              </div>  
+            </div>
+          </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default">
+              <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="40" height="40" src="assets/patrick.jpg">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Patrick Hill</h3>
+                        <p class="uk-text-meta uk-margin-remove-top">Full Stack Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+              <div>
+                <span uk-icon="icon:chevron-right;"></span>&ensp;<a href="https://itch.io/profile/cileth" target="_blank">Itch.io</a>
+              </div>
+              <div>
+                <span uk-icon="icon:chevron-right;"></span>&ensp;<a href="https://www.linkedin.com/in/patrick-hill-dev/" target="_blank">LinkedIn</a>
+              </div>  
+            </div>
+            </div>
+          </div>
+          </div>
+      </div>
+      </div>
+      <div id="contact" class="uk-section">
+        <div class="uk-container" style="color:white">
+          <div class="uk-heading-medium crimsonFont">Contact</div>
+          <br/>
+          <div class="uk-grid-column-small uk-grid-row-large uk-child-width-1-3@s uk-text-center" uk-grid>
+            <div>
+                <div><a href="mailto:dalenapham35@gmail.com" class="uk-icon-button" uk-icon="icon:mail;ratio:2" style="width:90px;height:90px"></a></div>
+                <div class="uk-text-large crimsonFont">Email</div>
+                <div><a href="mailto:dalenapham35@gmail.com" class="uk-link-muted">dalenapham35@gmail.com</a></div>
+            </div>
+            <div>
+              <div><a href="https://www.linkedin.com/in/phamdal/" target="_blank" class="uk-icon-button" uk-icon="icon:linkedin;ratio:2" style="width:90px;height:90px;"></a></div>
+              <div class="uk-text-large	crimsonFont">LinkedIn</div>
+              <div><a href="https://www.linkedin.com/in/phamdal/" target="_blank" class="uk-link-muted">linkedin.com/in/phamdal/</a></div>
+            </div>
+            <div>
+              <div><a href="https://github.com/phamdal" target="_blank" class="uk-icon-button" uk-icon="icon:github;ratio:2" style="width:90px;height:90px;"></a></div>
+              <div class="uk-text-large crimsonFont">GitHub</div>
+              <div><a href="https://github.com/phamdal" target="_blank" class="uk-link-muted">github.com/phamdal</a></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>      
+  </div>
+</body>
+</html>
