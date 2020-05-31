@@ -44,3 +44,9 @@
 .crimsonFont {
     font-family: 'Crimson Text', serif;
 }
+
+.toolDescription
+{
+    font-size: 1rem;
+    color: #bdc3c7; 
+}
