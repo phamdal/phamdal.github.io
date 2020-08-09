@@ -17,6 +17,10 @@
   <!-- UIkit JS -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
+
+  <!-- Ion Font Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+
 </head>                                                                                         
 <body>
 <!-- <div>
@@ -88,24 +92,25 @@
             <li><span uk-icon="bolt"></span> Hogwarts House: <a href="https://www.pottermore.com/writing-by-jk-rowling/the-sorting-hat" target="_blank">Slytherin</a></li>
             <li><span uk-icon="heart"></span> Beverage of Choice: <a href="https://www.starbucks.com/menu/product/477/hot?parent=%2Fdrinks%2Fhot-teas%2Fblack-teas" target="_blank">London Fog</a></li>
             <li><span uk-icon="code"></span> Current Visual Studio Code Theme: <a href="https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night" target="_blank">Tokyo Night Storm</a></li>
+            <li><span uk-icon="happy"></span> Tabs vs Spaces: TEAM TABS</li>
           </ul>
         </div>
     </div>
     </div>
   </div>
-  <div id="exp" class="uk-section" style="background-color:#15372c;">
+  <div id="exp" class="uk-section">
     <div class="uk-container"> 
       <div uk-grid>
         <div class="uk-width-1-2@m" style="color:white">
           <div class="uk-heading-small crimsonFont">Work & Education</div>
           <div style="margin-left:30px">
             <div style="margin-bottom: 10px;">
-              <div class="uk-text-large">Software Developer ll</div>
+              <div class="uk-text-large header-text">Software Developer ll</div>
               <div>Crelate Talent</div>
               <div>January 2020 - Present</div>
             </div>
             <div>
-              <div class="uk-text-large">Software Developer l</div>
+              <div class="uk-text-large header-text">Software Developer l</div>
               <div>Crelate Talent</div>
               <div>August 2016 - January 2020</div>
             </div>
@@ -113,12 +118,12 @@
           <hr style="width:80%;"/>
           <div style="margin-left:30px;">
             <div style="margin-bottom: 10px;">
-              <div class="uk-text-large">B.S. Computer Science</div>
+              <div class="uk-text-large header-text">B.S. Computer Science</div>
               <div>Oregon State University</div>
               <div>2014 - 2016</div>
             </div>
             <div>
-              <div class="uk-text-large">B.S. General Biology</div>
+              <div class="uk-text-large header-text">B.S. General Biology</div>
               <div>University of Washington</div>
               <div>2011 - 2014</div>
             </div>
@@ -127,11 +132,14 @@
         <div class="uk-width-1-2@m" style="color:white">
           <div class="uk-heading-small crimsonFont">Skills Summary</div>
           <div style="margin-left:30px">
-            <div class="uk-text-large">Current Stack </div>
-            <div> C#, .NET, SQL Server, <br/> TypeScript, JavaScript, Kendo UI, Handlebars, HTML/CSS/LESS,<br/> Xamarin </div>
+            <div class="uk-text-large header-text">Current Stack </div>
+            <div class="skills-text"> C#, .NET, SQL Server, <br/> TypeScript, JavaScript, Kendo UI, Handlebars, HTML/CSS/LESS,<br/> Xamarin </div>
             <br/>
-            <div class="uk-text-large">Tools Used </div>
-            <div>Visual Studios, Azure DevOps, ElasticSearch, Git</div>
+            <div class="uk-text-large header-text">Tools Used </div>
+            <div class="skills-text">Visual Studios, Azure DevOps, ElasticSearch, Git</div>
+            <br/>
+            <div class="uk-text-large header-text">Hobby Languages </div>
+            <div class="skills-text">Vue</div>
           </div>
         </div>
       </div>
@@ -156,33 +164,41 @@
         <div class="uk-text-lead" style="color:white">
           Here are some awesome tools I use and reccomend!     
         </div>
-        <ul class="uk-list uk-list-divider">
-          <li>
-            <div class="toolListItem">
-              <div><span uk-icon="icon:git-fork"></span> <a href="https://www.gitkraken.com/git-client" target="_blank" class="uk-link-heading">GitKraken</a> <span class="toolDescription">- A Git GUI</span></div>
-            </div>  
-          </li>
-          <li>
-            <div class="toolListItem">
-              <div><span uk-icon="icon:cog"></span> <a href="https://quicktype.io/" target="_blank" class="uk-link-heading">QuickType</a> <span class="toolDescription">- Generate client libraries from JSON</span></div>
-            </div>
-          </li>
-          <li>
-            <div class="toolListItem">
-              <div><span uk-icon="icon:cog"></span> <a href="https://flatuicolors.com/" target="_blank" class="uk-link-heading">Flat UI Colors</a> <span class="toolDescription">- Library of colors </span></div>
-            </div>
-          </li>
-          <li>
-            <div class="toolListItem">
-              <div><span uk-icon="icon:cog"></span> <a href="https://coolors.co/" target="_blank" class="uk-link-heading">Coolorss</a> <span class="toolDescription">- Generate color palettes</span></div>
-            </div>
-          </li>
-          <li>
-            <div class="toolListItem">
-              <div><span uk-icon="icon:cog"></span> <a href="https://mockaroo.com/" target="_blank" class="uk-link-heading">Mockaroo</a> <span class="toolDescription">- Generate CSV mock data</span></div>
-            </div>
-          </li>
-        </ul>
+        <div class="tools-container">
+          <div class="tools-image">
+            <img width="300" height="300" src="./assets/svgs/humaaans.png">
+          </div>
+          <div style="width: 100%;margin-top:1em;">
+            <ul class="uk-list uk-list-divider">
+              <li>
+                <div class="toolListItem">
+                  <div><ion-icon name="git-branch" style="color:#BFC1FB"></ion-icon> <a href="https://www.gitkraken.com/git-client" target="_blank" class="uk-link-heading">GitKraken</a> <span class="toolDescription">- A Git GUI</span></div>
+                </div>  
+              </li>
+              <li>
+                <div class="toolListItem">
+                  <div><ion-icon name="hammer" style="color:#81A8D7"></ion-icon> <a href="https://quicktype.io/" target="_blank" class="uk-link-heading">QuickType</a> <span class="toolDescription">- Generate client libraries from JSON</span></div>
+                </div>
+              </li>
+              <li>
+                <div class="toolListItem">
+                  <div><ion-icon name="hammer" style="color:#4E8EAC"></ion-icon> <a href="https://mockaroo.com/" target="_blank" class="uk-link-heading">Mockaroo</a> <span class="toolDescription">- Generate CSV mock data</span></div>
+                </div>
+              </li>
+              <li>
+                <div class="toolListItem">
+                  <div><ion-icon name="color-palette" style="color:#2C717E"></ion-icon></span> <a href="https://flatuicolors.com/" target="_blank" class="uk-link-heading">Flat UI Colors</a> <span class="toolDescription">- Library of colors </span></div>
+                </div>
+              </li>
+              <li>
+                <div class="toolListItem">
+                  <div><ion-icon name="color-palette" style="color:#1C5452"></ion-icon></span> <a href="https://blush.design" target="_blank" class="uk-link-heading">blush.design</a> <span class="toolDescription">- Customize & mix free to use illustrations</span></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
       </div>
   </div>
   <div id="friends" class="uk-section">
@@ -288,5 +304,7 @@
     </div>
     </div>      
   </div>
+
+
 </body>
 </html>

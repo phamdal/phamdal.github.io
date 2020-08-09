@@ -25,6 +25,12 @@
 #exp .uk-heading-small, #exp .uk-text-large {
     color: white;
 }
+#exp .header-text {
+    font-weight: 700;
+}
+#exp .skills-text {
+    font-size: 18px;
+}
 #tools {
     background-color: #15372c;
 }
@@ -44,9 +50,15 @@
 .crimsonFont {
     font-family: 'Crimson Text', serif;
 }
-
-.toolDescription
-{
+.toolDescription {
     font-size: 1rem;
-    color: #bdc3c7; 
+    color: #bdc3c7;
+}
+.tools-container {
+    display: flex;
+    margin-top: 2em;
+}
+.tools-image {
+    margin-right: 3em;
+    padding-bottom: 1em;
 }
